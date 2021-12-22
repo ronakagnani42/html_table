@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+       table {
+  border-collapse: collapse;
+
+}
+table td {
+  border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+    <table style="height: 300px; width: 600px; border: 3px solid;">
+        <!-- ROW 1 -->
+        <tr>
+            <td colspan="3">A</td>
+            <!-- <td>B</td>
+            <td>C</td> -->
+            <td>D</td>
+            <td rowspan="3">E</td>
+        </tr>
+
+        <!-- ROW 2 -->
+        <tr>
+            <td>A</td>
+            <td rowspan="2">B</td>
+            <td>C</td>
+            <td>D</td>
+            <!-- <td>E</td> -->
+        </tr>
+
+        <!-- ROW 3 -->
+        <tr>
+            <td rowspan="2">A</td>
+            <!-- <td>B</td> -->
+            <td>C</td>
+            <td>D</td>
+            <!-- <td>E</td> -->
+        </tr>
+
+        <!-- ROW 4 -->
+        <tr>
+            <!-- <td>A</td> -->
+            <td colspan="3">B</td>
+            <!-- <td>C</td> -->
+            <!-- <td>D</td> -->
+            <td>E</td>
+        </tr>
+
+        <!-- ROW 5 -->
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td colspan="3">C</td>
+            <!-- <td>D</td>
+            <td>E</td> -->
+        </tr>
+       </table>
+
+    
+</body>
+</html>
